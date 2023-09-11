@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js"></script>
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Web Page</h1>
+      <div class="flex-1">
+        <p>
+          Slack Name:
+          <span id="slackUserName" data-testid="slackUserName"></span>
+        </p>
+        <img
+          id="slackDisplayImage"
+          data-testid="slackDisplayImage"
+          alt="Your Slack Username"
+          src="Kehinde.jpg.jpg"
+        />
+      </div>
+      <div class="flex-2">
+        <p>
+          Current Day of the Week:
+          <span
+            id="currentDayOfTheWeek"
+            data-testid="currentDayOfTheWeek"
+          ></span>
+        </p>
+
+        <p>
+          Current UTC Time:
+          <span id="currentUTCTime" data-testid="currentUTCTime"></span>
+        </p>
+        <p>Track: <span id="myTrack" data-testid="myTrack"></span></p>
+        <p>
+          GitHub URL:
+          <a href="#" id="githubURL" data-testid="githubURL"
+            >My GitHub Repository</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
